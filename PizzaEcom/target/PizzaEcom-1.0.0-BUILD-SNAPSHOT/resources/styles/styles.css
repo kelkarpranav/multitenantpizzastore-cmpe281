@@ -1,0 +1,102 @@
+.navbar {
+        background: #0078ae;
+}
+
+.navbar .nav {
+        margin: 0;
+        display: table;
+        width: 100%;
+}
+
+.navbar .nav li {
+        display: table-cell;
+        width: 1%;
+        float: none;
+}
+
+.navbar .nav li a {
+        font-weight: bold;
+        text-align: center;
+        color:white;
+        border-left: 1px solid rgba(255,255,255,.75);
+        border-right: 1px solid rgba(0,0,0,.1);
+ }
+
+.navbar .nav li:first-child a {
+        border-left: 0;
+        border-radius: 3px 0 0 3px;
+}
+
+.navbar .nav li:last-child a {
+        border-right: 0;
+        border-radius: 0 3px 3px 0;
+}
+
+.left
+{
+    display:inline-block;
+    width:150px;
+}
+
+
+.right
+{
+    display:inline-block;
+    width:200px;
+}
+
+.rightmost
+{
+    float: right;
+    display:inline-block;
+    width:300px;
+} 
+
+div.left
+{
+    display:inline-block;
+    width:450px;
+}
+
+div.centerr{
+  width:100px;
+    height:100px;
+    position: absolute;
+    background:blue;
+}
+
+
+
+table {
+  max-width: 100%;
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  line-height: 20px;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid #dddddd;
+}
+
+.table th {
+  font-weight: bold;
+}
+
+.table thead th {
+  vertical-align: bottom;
+}
+
+.table-striped tbody > tr:nth-child(odd) > td,
+.table-striped tbody > tr:nth-child(odd) > th {
+  background-color: #f9f9f9;
+}

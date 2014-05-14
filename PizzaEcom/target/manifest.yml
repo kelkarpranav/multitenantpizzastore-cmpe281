@@ -1,0 +1,14 @@
+---
+applications:
+  .:
+    name: PizzaEcom-app
+    framework:
+      name: spring
+      info:
+        mem: 512M
+        description: Java SpringSource Spring Application
+        exec: 
+    infra: aws
+    url: ${name}.${target-base}
+    mem: 512M
+    instances: 1
